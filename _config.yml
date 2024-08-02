@@ -1,10 +1,10 @@
 title: "No Budget Sec"
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Sharing open-source solutions for basic cybersecurity controls
+  Providing free and low-cost open-source solutions for essential cybersecurity controls—no budget approval required.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nobudgetsec.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jnahuelperez
+linkedin_username: jnahuelperez
 github_username:  jnahuelperez
 
 # Build settings
