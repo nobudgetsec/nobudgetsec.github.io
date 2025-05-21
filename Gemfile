@@ -8,4 +8,6 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-include-cache"
+  gem "jekyll-archives"       # ⚠️ <- este es el que faltaba
+  gem "faraday-retry"         # <- si usas plugins que hacen HTTP
 end
