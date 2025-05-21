@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "No Budget Security"
+title: "No Budget Sec"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -41,14 +41,29 @@ permalink: /
 
 {% include feature_row %}
 
-## Recent Posts
-
-<div class="grid__wrapper">
-  {% for post in site.posts limit:4 %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-</div>
-
-## Contact
-
-Feel free to reach out through [LinkedIn](https://www.linkedin.com/in/jnahuelperez/) 
+<div class="feature__wrapper">
+  <div class="feature__item--left">
+    <div class="archive__item">
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">Contact</h2>
+        <div class="archive__item-excerpt">
+          <p>Feel free to reach out through <a href="https://www.linkedin.com/in/jnahuelperez/" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="feature__item--right">
+    <div class="archive__item">
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">Recent Posts</h2>
+        <div class="archive__item-excerpt">
+          {% for post in site.posts limit:3 %}
+            <p><a href="{{ post.url }}">{{ post.title }}</a><br/>
+            <small><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: "%B %d, %Y" }}</small></p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 

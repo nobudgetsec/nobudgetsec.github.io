@@ -1,5 +1,5 @@
 ---
-title: "Welcome to No Budget Security"
+title: "Welcome to No Budget Sec"
 date: 2024-03-20
 categories:
   - Blog
@@ -18,7 +18,7 @@ In this blog, you'll find:
 * Real-world experiences
 * Tips and tricks
 
-## Why "No Budget Security"?
+## Why "No Budget Sec"?
 
 The name reflects my approach to security: finding effective solutions without breaking the bank. Security doesn't have to be expensive to be effective.
 
