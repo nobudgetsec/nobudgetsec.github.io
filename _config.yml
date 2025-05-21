@@ -1,9 +1,32 @@
 title: "No Budget Security"
 name: "Nahuel Perez"
-description: "Blog sobre seguridad informática y tecnología"
+description: "Blog about information security and technology"
 url: "https://nobudgetsec.github.io"
 baseurl: ""  # importante para github.io root
 remote_theme: "mmistakes/minimal-mistakes@4.27.1"
+
+# Site Settings
+locale: "en-US"
+search: true
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Author
+author:
+  name: "Nahuel Perez"
+  bio: "Cybersecurity Enthusiast"
+  location: "Canada"
+  avatar: "/assets/images/bio-photo.jpg"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jnahuelperez/"
+
+# Site Footer
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jnahuelperez/"
 
 plugins:
   - jekyll-feed
