@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 permalink: /
 title: "No Budget Security"
 header:
