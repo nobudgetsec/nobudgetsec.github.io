@@ -1,0 +1,57 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// Custom styles for header visibility
+.page__header-show .page__hero--overlay {
+  display: block !important;
+}
+
+// Improve header image fit to eliminate black bars
+.page__hero--overlay {
+  padding: 4em 0;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  width: 100vw !important;
+  position: relative !important;
+  left: 50% !important;
+  right: 50% !important;
+  margin-left: -50vw !important;
+  margin-right: -50vw !important;
+  max-width: none !important;
+  
+  .wrapper {
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  .page__title {
+    margin-bottom: 0.5em;
+  }
+  
+  .page__lead {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+
+// Make sure image takes up full width on mobile
+@media (max-width: 767px) {
+  .page__hero--overlay {
+    min-height: 300px;
+  }
+}
+
+// Fix for the main container
+.initial-content {
+  overflow-x: hidden;
+}
