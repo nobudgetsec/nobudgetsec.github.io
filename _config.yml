@@ -5,6 +5,10 @@ url: "https://nobudgetsec.github.io"
 baseurl: ""  # importante para github.io root
 remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 
+# Include _pages directory
+include:
+  - _pages
+
 # Site Settings
 locale: "en-US"
 search: true
