@@ -1,0 +1,24 @@
+/* Custom header styles */
+.page__hero--overlay {
+  background-size: cover !important;
+  background-position: center !important;
+  height: auto;
+  min-height: 300px;
+  max-height: 50vh;
+  margin-bottom: 2em;
+}
+
+.page__hero--overlay .page__lead {
+  max-width: 768px;
+  margin: 0 auto;
+  color: white !important;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.8) !important;
+}
+
+.archive {
+  margin-top: 2em;
+}
+
+body {
+  overflow-x: hidden;
+}

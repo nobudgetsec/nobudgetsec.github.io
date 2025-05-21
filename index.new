@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>About - No Budget Sec</title>
-<meta name="description" content="Blog about information security and technology">
+<!-- begin _includes/seo.html --><title>  No Budget Sec</title>
+<meta name="description" content="A blog dedicated to sharing practical cybersecurity knowledge and insights, demonstrating that effective information security doesn’t require excessive budgets—just expertise, creativity, and the right approach.">
 
 
   <meta name="author" content="Nahuel Perez">
@@ -21,18 +21,15 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="No Budget Sec">
-<meta property="og:title" content="About">
-<meta property="og:url" content="https://nobudgetsec.github.io/about/">
+<meta property="og:title" content="">
+<meta property="og:url" content="https://nobudgetsec.github.io/">
 
 
-  <meta property="og:description" content="Blog about information security and technology">
-
-
-
-  <meta property="og:image" content="https://nobudgetsec.github.io/assets/images/unsplash-gallery-image-1.jpg">
+  <meta property="og:description" content="A blog dedicated to sharing practical cybersecurity knowledge and insights, demonstrating that effective information security doesn’t require excessive budgets—just expertise, creativity, and the right approach.">
 
 
 
+  <meta property="og:image" content="https://nobudgetsec.github.io/assets/images/headers/header-image.jpg">
 
 
 
@@ -40,10 +37,23 @@
 
 
 
-<link rel="canonical" href="https://nobudgetsec.github.io/about/">
 
 
 
+<link rel="canonical" href="https://nobudgetsec.github.io/">
+
+
+
+
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+    "name": "Nahuel Perez",
+    "url": "https://nobudgetsec.github.io/"
+}
+</script>
 
 
 
@@ -84,7 +94,7 @@
 
   </head>
 
-  <body class="layout--single" dir="ltr">
+  <body class="layout--splash home landing page__header-show" dir="ltr">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -140,205 +150,143 @@
 
 
 
-<div class="page__hero"
-  style=" background-image: url('');"
+<div class="page__hero--overlay"
+  style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/headers/header-image.jpg');"
 >
   
-    <img src="/assets/images/unsplash-gallery-image-1.jpg" alt="About" class="page__hero-image">
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          
+
+        
+      </h1>
+      
+        <p class="page__lead">A blog dedicated to sharing practical cybersecurity knowledge and insights, demonstrating that effective information security doesn’t require excessive budgets—just expertise, creativity, and the right approach.
+</p>
+      
+      
+
+
+      
+        <p>
+        
+          <a href="/posts/" class="btn btn--light-outline btn--large">Latest Articles</a>
+        
+        </p>
+      
+    </div>
   
-  
-    <span class="page__hero-caption">Photo credit: <a href="https://unsplash.com"><strong>Unsplash</strong></a>
-</span>
   
 </div>
-
-
-
-
 
 
 
 <div id="main" role="main">
-  
-  <div class="sidebar sticky">
-  
-
-
-<div itemscope itemtype="https://schema.org/Person" class="h-card">
-
-  
-    <div class="author__avatar">
-      <a href="https://nobudgetsec.github.io/">
-        <img src="/assets/images/profile.png" alt="Nahuel Perez" itemprop="image" class="u-photo">
-      </a>
-    </div>
-  
-
-  <div class="author__content">
-    <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="https://nobudgetsec.github.io/" itemprop="url">Nahuel Perez</a>
-    </h3>
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="">
+    <meta itemprop="description" content="A blog dedicated to sharing practical cybersecurity knowledge and insights, demonstrating that effective information security doesn’t require excessive budgets—just expertise, creativity, and the right approach.">
     
-      <div class="author__bio p-note" itemprop="description">
-        <p>Cybersecurity Enthusiast</p>
-
-      </div>
     
-  </div>
 
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
+    <section class="page__content" itemprop="text">
+      <div style="position: fixed; top: 0; left: 0; right: 0; z-index: -1; height: 100vh; overflow: hidden; pointer-events: none;">
+  <img src="/assets/images/headers/header-image.jpg" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.5;">
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0,0,0,0.5);"></div>
+</div>
+
+<style>
+.page__hero--overlay {
+  display: none !important;
+}
+
+.page__hero--overlay .page__lead {
+  color: white !important;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+}
+
+.header-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 10em;
+  padding-bottom: 2em;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+}
+
+.header-content h2 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.header-content p {
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: 0 auto 2em auto;
+}
+
+.btn--primary {
+  background-color: #0092ca;
+  color: white !important;
+}
+</style>
+
+<div class="header-content">
+  <h2>No Budget Sec</h2>
+  <p>A blog dedicated to sharing practical cybersecurity knowledge and insights, demonstrating that effective information security doesn't require excessive budgets—just expertise, creativity, and the right approach.</p>
+  <a href="/posts/" class="btn btn--primary btn--large">Latest Articles</a>
+</div>
+
+<div class="posts-container" style="margin-top: 3em; position: relative; z-index: 2;">
+  <h1 class="archive__subtitle">Recent Posts</h1>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Canada</span>
-        </li>
+        <a href="/blog/2024/03/20/welcome-to-no-budget-security.html" rel="permalink">Welcome to No Budget Sec
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
       
 
-      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
         
-          
-            <li><a href="https://www.linkedin.com/in/jnahuelperez/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
-          
+          less than 1 minute read
         
-      
+      </span>
+    
+  </p>
 
-      
 
-      
+    <p class="archive__item-excerpt" itemprop="description">Hello and welcome to my blog! This is a space where I’ll be sharing my thoughts, experiences, and knowledge about information security and technology.
 
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
-  </div>
+</p>
+  </article>
 </div>
 
   
-  </div>
+</div>
 
-
-
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="About">
-    
-    
-    
-
-    <div class="page__inner-wrap">
-      
-        <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="https://nobudgetsec.github.io/about/" itemprop="url">About
-</a>
-          </h1>
-          
-
-
-        </header>
-      
-
-      <section class="page__content" itemprop="text">
-        
-        <h2 id="about-me">About Me</h2>
-
-<p>I’m a cybersecurity enthusiast and technology professional passionate about sharing knowledge and experiences in the field of information security.</p>
-
-<h2 id="what-youll-find-here">What You’ll Find Here</h2>
-
-<p>This blog focuses on:</p>
-<ul>
-  <li>Information Security</li>
-  <li>Technology</li>
-  <li>Cybersecurity Best Practices</li>
-  <li>Security Tools and Techniques</li>
-  <li>Industry Insights</li>
-</ul>
-
-<h2 id="connect-with-me">Connect With Me</h2>
-
-<p>Feel free to reach out through:</p>
-<ul>
-  <li>GitHub</li>
-  <li>LinkedIn</li>
-  <li>Twitter</li>
-</ul>
-
-<p>Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.</p>
-
-<p>Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.</p>
-
-        
-      </section>
-
-      <footer class="page__meta">
-        
-        
-
-
-        
-
-      </footer>
-
-      
-
-      
-
-    </div>
-
-    
+    </section>
   </article>
-
-  
-  
 </div>
 
       
