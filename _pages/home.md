@@ -1,9 +1,10 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: single
+permalink: /
+title: "No Budget Security"
+header:
+  image: /assets/images/headers/header-image.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
 # Welcome to No Budget Security
@@ -36,4 +37,4 @@ A blog dedicated to sharing knowledge about information security and technology,
 ## Connect With Me
 
 Feel free to reach out through:
-* [LinkedIn](https://www.linkedin.com/in/jnahuelperez/)
+* [LinkedIn](https://www.linkedin.com/in/jnahuelperez/) 
