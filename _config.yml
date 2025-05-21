@@ -1,7 +1,7 @@
-title: "Mi Blog"
-name: "Juan Pérez"
-description: "Blog sobre tecnología y seguridad"
-url: "https://<tu-usuario>.github.io"
+title: "No Budget Security"
+name: "Nahuel Perez"
+description: "Blog sobre seguridad informática y tecnología"
+url: "https://nobudgetsec.github.io"
 baseurl: ""  # importante para github.io root
 remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 
