@@ -4,6 +4,10 @@ title: "No Budget Sec"
 subtitle: "Security without breaking the bank"
 permalink: /
 author_profile: true
+classes:
+  - home
+  - landing
+  - page__header-show
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
