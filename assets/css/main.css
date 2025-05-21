@@ -1313,10 +1313,6 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   .masthead, .toc, .page__share, .page__related, .pagination, .ads, .page__footer, .page__comments-form, .author__avatar, .author__content, .author__urls-wrapper, .nav__list, .sidebar, .adsbygoogle { display: none !important; height: 1px !important; } }
 .page__header-show .page__hero--overlay { display: block !important; }
 
-.page__hero--overlay { padding: 4em 0; background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important; width: 100vw !important; position: relative !important; left: 50% !important; right: 50% !important; margin-left: -50vw !important; margin-right: -50vw !important; max-width: none !important; }
-.page__hero--overlay .wrapper { padding-left: 1em; padding-right: 1em; max-width: 1280px; margin: 0 auto; }
-.page__hero--overlay .page__title { margin-bottom: 0.5em; }
-.page__hero--overlay .page__lead { max-width: 768px; margin: 0 auto; }
+body { overflow-x: hidden; }
 
-@media (max-width: 767px) { .page__hero--overlay { min-height: 300px; } }
-.initial-content { overflow-x: hidden; }
+.page__hero--overlay { position: relative; padding: 4em 0; }
