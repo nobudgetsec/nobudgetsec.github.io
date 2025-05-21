@@ -22,6 +22,10 @@ minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon
 after_footer_scripts:
   - /assets/js/custom.js
 
+# Custom styles
+head_scripts:
+  - /assets/css/override/style.css
+
 # Site Author
 author:
   name: "Nahuel Perez"
