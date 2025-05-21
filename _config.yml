@@ -3,7 +3,7 @@ name: "Juan Pérez"
 description: "Blog sobre tecnología y seguridad"
 url: "https://<tu-usuario>.github.io"
 baseurl: ""  # importante para github.io root
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 
 plugins:
   - jekyll-feed
