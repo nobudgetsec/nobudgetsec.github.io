@@ -13,5 +13,9 @@ feature_row:
     excerpt: "Security Tools, Automation, Cloud Security."
   - title: "Cybersecurity"
     excerpt: "Penetration Testing, Vulnerability Assessment, Security Architecture."
+feature_row2:
+  - title: "Contact"
+    excerpt: "Feel free to reach out through <a href='https://www.linkedin.com/in/jnahuelperez/' target='_blank'>LinkedIn</a>."
 permalink: /
---- 
+---
+{% include feature_row id="feature_row2" %} 

@@ -7,3 +7,7 @@ main:
     url: /tags/
   - title: "About"
     url: /about/
+
+feature_row2:
+  - title: "Contact"
+    excerpt: "Feel free to reach out through [LinkedIn](https://www.linkedin.com/in/jnahuelperez/)."
