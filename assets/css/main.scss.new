@@ -7,3 +7,32 @@
 .page__header-show .page__hero--overlay {
   display: block !important;
 }
+
+// Improve header image fit
+.page__hero--overlay {
+  padding: 4em 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  .wrapper {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  
+  .page__title {
+    margin-bottom: 0.5em;
+  }
+  
+  .page__lead {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+
+// Make sure image takes up full width on mobile
+@media (max-width: 767px) {
+  .page__hero--overlay {
+    min-height: 300px;
+  }
+}
