@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://nobudgetsec.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nobudgetsec.github.io/" rel="alternate" type="text/html" /><updated>2025-05-21T17:13:50+00:00</updated><id>https://nobudgetsec.github.io/feed.xml</id><title type="html">No Budget Security</title><subtitle>Blog about information security and technology</subtitle><author><name>Nahuel Perez</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://nobudgetsec.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nobudgetsec.github.io/" rel="alternate" type="text/html" /><updated>2025-05-21T17:31:18+00:00</updated><id>https://nobudgetsec.github.io/feed.xml</id><title type="html">No Budget Security</title><subtitle>Blog about information security and technology</subtitle><author><name>Nahuel Perez</name></author><entry><title type="html">Welcome to No Budget Security</title><link href="https://nobudgetsec.github.io/blog/2024/03/20/welcome-to-no-budget-security.html" rel="alternate" type="text/html" title="Welcome to No Budget Security" /><published>2024-03-20T00:00:00+00:00</published><updated>2024-03-20T00:00:00+00:00</updated><id>https://nobudgetsec.github.io/blog/2024/03/20/welcome-to-no-budget-security</id><content type="html" xml:base="https://nobudgetsec.github.io/blog/2024/03/20/welcome-to-no-budget-security.html"><![CDATA[<h1 id="welcome-to-no-budget-security">Welcome to No Budget Security</h1>
+
+<p>Hello and welcome to my blog! This is a space where I’ll be sharing my thoughts, experiences, and knowledge about information security and technology.</p>
+
+<h2 id="what-to-expect">What to Expect</h2>
+
+<p>In this blog, you’ll find:</p>
+
+<ul>
+  <li>Security best practices</li>
+  <li>Technology insights</li>
+  <li>Real-world experiences</li>
+  <li>Tips and tricks</li>
+</ul>
+
+<h2 id="why-no-budget-security">Why “No Budget Security”?</h2>
+
+<p>The name reflects my approach to security: finding effective solutions without breaking the bank. Security doesn’t have to be expensive to be effective.</p>
+
+<p>Stay tuned for more content coming soon!</p>]]></content><author><name>Nahuel Perez</name></author><category term="Blog" /><category term="welcome" /><category term="cybersecurity" /><summary type="html"><![CDATA[Welcome to No Budget Security]]></summary></entry></feed>
