@@ -5,6 +5,9 @@ url: "https://nobudgetsec.github.io"
 baseurl: ""  # importante para github.io root
 remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 
+# Logo for the site masthead
+logo: "/assets/images/logo.svg"
+
 # Include _pages directory
 include:
   - _pages
@@ -19,7 +22,7 @@ author:
   name: "Nahuel Perez"
   bio: "Cybersecurity Enthusiast"
   location: "Canada"
-  avatar: "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/profile.png"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -45,6 +48,8 @@ defaults:
       comments: false
       share: true
       related: true
+      header:
+        show: false
   # _pages
   - scope:
       path: "_pages"
@@ -52,6 +57,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      header: 
+        show: false
 
 paginate: 5
 paginate_path: /page:num/
