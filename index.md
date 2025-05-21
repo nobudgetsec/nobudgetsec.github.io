@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "No Budget Sec"
-subtitle: "Security without breaking the bank"
+title: " " # Espacio en blanco para no mostrar título
+subtitle: " " # Espacio en blanco para no mostrar subtítulo
 permalink: /
 author_profile: true
 classes:
