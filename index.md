@@ -42,28 +42,31 @@ permalink: /
 {% include feature_row %}
 
 <div class="feature__wrapper">
-  <div class="feature__item--left">
-    <div class="archive__item">
-      <div class="archive__item-body">
-        <h2 class="archive__item-title">Contact</h2>
-        <div class="archive__item-excerpt">
-          <p>Feel free to reach out through <a href="https://www.linkedin.com/in/jnahuelperez/" target="_blank">LinkedIn</a></p>
+  <div class="grid__wrapper">
+    <div class="grid__item" style="float: left; width: 30%; margin-bottom: 2em;">
+      <div class="archive__item">
+        <div class="archive__item-body">
+          <h2 class="archive__item-title">Contact</h2>
+          <div class="archive__item-excerpt">
+            <p>Feel free to reach out through <a href="https://www.linkedin.com/in/jnahuelperez/" target="_blank">LinkedIn</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="grid__item" style="float: left; width: 70%; margin-bottom: 2em;">
+      <div class="archive__item">
+        <div class="archive__item-body">
+          <h2 class="archive__item-title">Recent Posts</h2>
+          <div class="archive__item-excerpt">
+            {% for post in site.posts limit:3 %}
+              <p><a href="{{ post.url }}">{{ post.title }}</a><br/>
+              <small><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: "%B %d, %Y" }}</small></p>
+            {% endfor %}
+          </div>
         </div>
       </div>
     </div>
   </div>
-  
-  <div class="feature__item--right">
-    <div class="archive__item">
-      <div class="archive__item-body">
-        <h2 class="archive__item-title">Recent Posts</h2>
-        <div class="archive__item-excerpt">
-          {% for post in site.posts limit:3 %}
-            <p><a href="{{ post.url }}">{{ post.title }}</a><br/>
-            <small><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: "%B %d, %Y" }}</small></p>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  </div>
-</div> 
+</div>
+<div style="clear: both;"></div> 
