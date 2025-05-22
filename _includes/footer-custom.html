@@ -1,0 +1,19 @@
+<!-- footer content -->
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. All rights reserved.</div>
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    <li><strong>Follow:</strong></li>
+    {% if site.author.links %}
+      {% for link in site.author.links %}
+        {% if link.label and link.url %}
+          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-credit">
+  <p>No Budget Sec is dedicated to providing practical cybersecurity knowledge without the high costs.</p>
+</div>

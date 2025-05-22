@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://nobudgetsec.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nobudgetsec.github.io/" rel="alternate" type="text/html" /><updated>2025-05-21T21:32:52+00:00</updated><id>https://nobudgetsec.github.io/feed.xml</id><title type="html">No Budget Sec</title><subtitle>Blog about information security and technology</subtitle><author><name>Nahuel Perez</name></author><entry><title type="html">Welcome to No Budget Sec</title><link href="https://nobudgetsec.github.io/blog/2024/03/20/welcome-to-no-budget-security.html" rel="alternate" type="text/html" title="Welcome to No Budget Sec" /><published>2024-03-20T00:00:00+00:00</published><updated>2024-03-20T00:00:00+00:00</updated><id>https://nobudgetsec.github.io/blog/2024/03/20/welcome-to-no-budget-security</id><content type="html" xml:base="https://nobudgetsec.github.io/blog/2024/03/20/welcome-to-no-budget-security.html"><![CDATA[<p>Hello and welcome to my blog! This is a space where I’ll be sharing my thoughts, experiences, and knowledge about information security and technology.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://nobudgetsec.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nobudgetsec.github.io/" rel="alternate" type="text/html" /><updated>2025-05-22T14:29:29+00:00</updated><id>https://nobudgetsec.github.io/feed.xml</id><title type="html">No Budget Sec</title><subtitle>Practical cybersecurity knowledge without breaking the bank</subtitle><author><name>Nahuel Perez</name></author><entry><title type="html">Cybersecurity on a Budget: How to Get Started</title><link href="https://nobudgetsec.github.io/security/2024/04/15/cybersecurity-on-a-budget.html" rel="alternate" type="text/html" title="Cybersecurity on a Budget: How to Get Started" /><published>2024-04-15T00:00:00+00:00</published><updated>2024-04-15T00:00:00+00:00</updated><id>https://nobudgetsec.github.io/security/2024/04/15/cybersecurity-on-a-budget</id><content type="html" xml:base="https://nobudgetsec.github.io/security/2024/04/15/cybersecurity-on-a-budget.html"><![CDATA[<h1 id="cybersecurity-on-a-budget-how-to-get-started">Cybersecurity on a Budget: How to Get Started</h1>
+
+<p>When it comes to cybersecurity, you don’t always need expensive tools and solutions to get started. Here are some tips for implementing effective security measures without breaking the bank.</p>
+
+<h2 id="1-use-open-source-security-tools">1. Use Open Source Security Tools</h2>
+
+<p>There are many powerful open source security tools available for free:</p>
+
+<ul>
+  <li><strong>Kali Linux</strong> - A complete security-focused operating system</li>
+  <li><strong>Wireshark</strong> - Network protocol analyzer</li>
+  <li><strong>OWASP ZAP</strong> - Web application security scanner</li>
+  <li><strong>Snort</strong> - Intrusion detection system</li>
+  <li><strong>OpenVAS</strong> - Vulnerability scanner</li>
+</ul>
+
+<h2 id="2-implement-basic-security-practices">2. Implement Basic Security Practices</h2>
+
+<p>Good security practices cost nothing but time and attention:</p>
+
+<ul>
+  <li>Regular password changes using strong, unique passwords</li>
+  <li>Two-factor authentication wherever possible</li>
+  <li>Regular software updates and patches</li>
+  <li>Principle of least privilege for all accounts</li>
+  <li>Regular backups of important data</li>
+</ul>
+
+<h2 id="3-security-training-and-awareness">3. Security Training and Awareness</h2>
+
+<p>One of the most cost-effective security measures is education:</p>
+
+<ul>
+  <li>Train team members to recognize phishing attempts</li>
+  <li>Establish clear security protocols</li>
+  <li>Foster a security-conscious culture</li>
+  <li>Stay updated with security blogs and newsletters</li>
+</ul>
+
+<h2 id="4-free-cloud-security-options">4. Free Cloud Security Options</h2>
+
+<p>Many cloud providers offer free tiers with basic security features:</p>
+
+<ul>
+  <li>AWS Security Hub (free tier available)</li>
+  <li>Google Cloud Security Command Center (free tier available)</li>
+  <li>Azure Security Center (free tier available)</li>
+</ul>
+
+<h2 id="5-community-resources">5. Community Resources</h2>
+
+<p>Join security communities for knowledge sharing:</p>
+
+<ul>
+  <li>OWASP local chapters</li>
+  <li>Security forums and discussion groups</li>
+  <li>GitHub security projects</li>
+  <li>Security webinars and podcasts</li>
+</ul>
+
+<p>Remember, security is about layers of protection. Even with a limited budget, you can implement significant security improvements by focusing on fundamentals and leveraging the wealth of free resources available to the security community.</p>]]></content><author><name>Nahuel Perez</name></author><category term="Security" /><category term="tips" /><category term="beginners" /><category term="tools" /><summary type="html"><![CDATA[Getting started with cybersecurity doesn't have to be expensive. Learn how to protect yourself and your organization with minimal investment.]]></summary></entry><entry><title type="html">Welcome to No Budget Sec</title><link href="https://nobudgetsec.github.io/blog/2024/03/20/welcome-to-no-budget-security.html" rel="alternate" type="text/html" title="Welcome to No Budget Sec" /><published>2024-03-20T00:00:00+00:00</published><updated>2024-03-20T00:00:00+00:00</updated><id>https://nobudgetsec.github.io/blog/2024/03/20/welcome-to-no-budget-security</id><content type="html" xml:base="https://nobudgetsec.github.io/blog/2024/03/20/welcome-to-no-budget-security.html"><![CDATA[<p>Hello and welcome to my blog! This is a space where I’ll be sharing my thoughts, experiences, and knowledge about information security and technology.</p>
 
 <h2 id="what-to-expect">What to Expect</h2>
 
