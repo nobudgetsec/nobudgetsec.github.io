@@ -1,6 +1,6 @@
 title: "No Budget Sec"
 name: "Nahuel Perez"
-description: "Blog about information security and technology"
+description: "Practical cybersecurity knowledge without breaking the bank"
 url: "https://nobudgetsec.github.io"
 baseurl: ""  # importante para github.io root
 remote_theme: "mmistakes/minimal-mistakes@4.27.1"
@@ -17,6 +17,17 @@ include:
 locale: "en-US"
 search: true
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# SEO settings
+twitter:
+  username: "nobudgetsec"
+og_image: "/assets/images/profile.png"
+social:
+  type: Person
+  name: Nahuel Perez
+  links:
+    - "https://www.linkedin.com/in/jnahuelperez/"
+    - "https://github.com/nobudgetsec"
 
 # Custom scripts for all pages
 after_footer_scripts:
@@ -57,8 +68,8 @@ defaults:
       comments: false
       share: true
       related: true
-      header:
-        show: false
+      classes:
+        - page__header-show
   # _pages
   - scope:
       path: "_pages"
@@ -66,11 +77,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-      header: 
-        show: false
+      classes:
+        - page__header-show
 
 paginate: 5
-paginate_path: /page:num/
+paginate_path: /blog/page:num/
 
 plugins:
   - jekyll-feed

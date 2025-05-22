@@ -2,30 +2,45 @@
 permalink: /about/
 title: "About"
 header:
-  image: /assets/images/unsplash-gallery-image-1.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/headers/header-image.jpg
+  caption: "Security without breaking the bank"
+author_profile: true
 ---
 
 ## About Me
 
-I'm a cybersecurity enthusiast and technology professional passionate about sharing knowledge and experiences in the field of information security.
+I'm Nahuel Perez, a cybersecurity professional passionate about making security accessible to everyone regardless of budget constraints. With years of experience in the industry, I've learned that effective security is not about how much money you spend, but rather about knowledge, creativity, and implementation.
+
+## The No Budget Sec Mission
+
+This blog was created with a simple but important mission: to demonstrate that effective information security doesn't require excessive budgets. Many organizations and individuals believe that good security is expensive, but that's often not the case. With the right approach, even small companies and individuals can implement robust security measures.
 
 ## What You'll Find Here
 
 This blog focuses on:
-* Information Security
-* Technology
-* Cybersecurity Best Practices
-* Security Tools and Techniques
-* Industry Insights
+
+* **Practical Cybersecurity Solutions** - Real-world solutions that work without breaking the bank
+* **Open Source Security Tools** - Powerful free alternatives to expensive commercial products
+* **Security Best Practices** - Fundamentals that make a big difference regardless of budget
+* **Step-by-Step Guides** - Detailed tutorials to implement security measures yourself
+* **Industry Insights** - Analysis of trends and developments from a practical perspective
+
+## My Approach to Security
+
+I believe in:
+
+* **Democratizing Security Knowledge** - Everyone deserves access to good security information
+* **Pragmatic Solutions** - Focus on what works rather than theoretical perfection
+* **Risk-Based Thinking** - Understand your threats and prioritize accordingly
+* **Continuous Improvement** - Small, incremental steps toward better security
 
 ## Connect With Me
 
-Feel free to reach out through:
-* GitHub
-* LinkedIn
-* Twitter
+I'm always interested in connecting with fellow security enthusiasts, professionals, or anyone interested in learning more about cybersecurity:
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+* [LinkedIn](https://www.linkedin.com/in/jnahuelperez/)
+* [GitHub](https://github.com/nobudgetsec)
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Have questions or suggestions for topics you'd like to see covered? Feel free to reach out!
